@@ -1,0 +1,37 @@
+//
+//  StatusMenuController.swift
+//  ProcessChecker_Menubar
+//
+//  Created by Frederik Tollund Juutilainen on 16/03/2017.
+//  Copyright © 2017 Frederik Tollund Juutilainen. All rights reserved.
+//
+
+import Cocoa
+
+class StatusMenuController: NSObject {
+
+    @IBOutlet weak var statusMenu: NSMenu!
+    @IBOutlet weak var aClicked: NSMenuItem!
+    
+    let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
+    
+    override func awakeFromNib() {
+        // Set icon
+        let icon = NSImage(named: "statusIcon")
+        icon?.isTemplate = true // best for dark mode
+        statusItem.image = icon
+        statusItem.menu = statusMenu
+    }
+    
+    
+    @IBAction func quitClicker(_ sender: NSMenuItem) {
+        NSApplication.shared().terminate(self)
+    }
+    
+    @IBAction func checkProcesses(_ sender: NSMenuItem){
+    Swift.print("a");
+        statusItem.title = "a"
+        statusItem.menu = statusMenu
+    }
+    
+}

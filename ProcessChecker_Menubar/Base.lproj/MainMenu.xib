@@ -12,18 +12,26 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ProcessChecker_Menubar" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ProcessChecker_Menubar" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="roq-cf-0t3" userLabel="StatusMenuController" customClass="StatusMenuController" customModule="ProcessChecker_Menubar" customModuleProvider="target">
             <connections>
-                <outlet property="statusMenu" destination="bnw-63-t8T" id="LbS-l4-F6A"/>
+                <outlet property="aClicked" destination="GDs-Rc-R8R" id="e6O-vg-4xa"/>
+                <outlet property="statusMenu" destination="bnw-63-t8T" id="8GI-3O-lVG"/>
             </connections>
         </customObject>
-        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu id="bnw-63-t8T">
             <items>
+                <menuItem title="Check all processes" id="GDs-Rc-R8R" userLabel="CheckProcesses">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="checkProcesses:" target="roq-cf-0t3" id="zqh-gz-OL4"/>
+                    </connections>
+                </menuItem>
                 <menuItem title="Quit" id="FkL-Ov-GIS">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="quitClicker:" target="Voe-Tx-rLC" id="mat-pC-8iu"/>
+                        <action selector="quitClicker:" target="roq-cf-0t3" id="8E6-fz-c2n"/>
                     </connections>
                 </menuItem>
             </items>

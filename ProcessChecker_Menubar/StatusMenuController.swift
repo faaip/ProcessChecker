@@ -33,6 +33,11 @@ class StatusMenuController: NSObject {
 //        statusItem.title = "a"
 //        statusItem.menu = statusMenu
         processChecker.checkProcesses()
+        
+        let sel:Selector? = nil
+        
+        let menuItem = NSMenuItem(title: "weehu", action: sel, keyEquivalent: "")
+        statusMenu.addItem(menuItem)
     }
     
 }

@@ -13,6 +13,7 @@
 		2EE31F7C1E7A99450093116F /* ProcessChecker_MenubarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE31F7B1E7A99450093116F /* ProcessChecker_MenubarTests.swift */; };
 		2EE31F871E7A99450093116F /* ProcessChecker_MenubarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE31F861E7A99450093116F /* ProcessChecker_MenubarUITests.swift */; };
 		2EE31F951E7A9CFD0093116F /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE31F941E7A9CFD0093116F /* StatusMenuController.swift */; };
+		2EE31F971E7AA0AC0093116F /* ProcessChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE31F961E7AA0AC0093116F /* ProcessChecker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		2EE31F861E7A99450093116F /* ProcessChecker_MenubarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessChecker_MenubarUITests.swift; sourceTree = "<group>"; };
 		2EE31F881E7A99450093116F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EE31F941E7A9CFD0093116F /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		2EE31F961E7AA0AC0093116F /* ProcessChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessChecker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				2EE31F6B1E7A99450093116F /* AppDelegate.swift */,
+				2EE31F961E7AA0AC0093116F /* ProcessChecker.swift */,
 				2EE31F941E7A9CFD0093116F /* StatusMenuController.swift */,
 				2EE31F6D1E7A99450093116F /* Assets.xcassets */,
 				2EE31F6F1E7A99450093116F /* MainMenu.xib */,
@@ -257,6 +260,7 @@
 			files = (
 				2EE31F951E7A9CFD0093116F /* StatusMenuController.swift in Sources */,
 				2EE31F6C1E7A99450093116F /* AppDelegate.swift in Sources */,
+				2EE31F971E7AA0AC0093116F /* ProcessChecker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,7 @@ class StatusMenuController: NSObject {
     @IBOutlet weak var aClicked: NSMenuItem!
     
     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
+    let processChecker = ProcessChecker()
     
     override func awakeFromNib() {
         // Set icon
@@ -29,9 +30,9 @@ class StatusMenuController: NSObject {
     }
     
     @IBAction func checkProcesses(_ sender: NSMenuItem){
-    Swift.print("a");
-        statusItem.title = "a"
-        statusItem.menu = statusMenu
+//        statusItem.title = "a"
+//        statusItem.menu = statusMenu
+        processChecker.checkProcesses()
     }
     
 }

@@ -28,7 +28,7 @@
                         <action selector="checkProcesses:" target="roq-cf-0t3" id="zqh-gz-OL4"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Preferences" id="IeS-uA-Cqf">
+                <menuItem title="Preferences..." toolTip="Opens menu to add new processes" id="IeS-uA-Cqf" userLabel="Preferences...">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="preferencesClicked:" target="roq-cf-0t3" id="FqW-Vk-HLR"/>

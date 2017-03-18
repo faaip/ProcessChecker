@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2BBD8E1E7D9C950068DAF1 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BBD8C1E7D9C950068DAF1 /* PreferencesWindow.swift */; };
+		2E2BBD8F1E7D9C950068DAF1 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BBD8D1E7D9C950068DAF1 /* PreferencesWindow.xib */; };
 		2EE31F6C1E7A99450093116F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE31F6B1E7A99450093116F /* AppDelegate.swift */; };
 		2EE31F6E1E7A99450093116F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE31F6D1E7A99450093116F /* Assets.xcassets */; };
 		2EE31F711E7A99450093116F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE31F6F1E7A99450093116F /* MainMenu.xib */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E2BBD8C1E7D9C950068DAF1 /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		2E2BBD8D1E7D9C950068DAF1 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
 		2EE31F681E7A99450093116F /* ProcessChecker_Menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProcessChecker_Menubar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE31F6B1E7A99450093116F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EE31F6D1E7A99450093116F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				2EE31F941E7A9CFD0093116F /* StatusMenuController.swift */,
 				2EE31F6D1E7A99450093116F /* Assets.xcassets */,
 				2EE31F6F1E7A99450093116F /* MainMenu.xib */,
+				2E2BBD8C1E7D9C950068DAF1 /* PreferencesWindow.swift */,
+				2E2BBD8D1E7D9C950068DAF1 /* PreferencesWindow.xib */,
 				2EE31F721E7A99450093116F /* Info.plist */,
 			);
 			path = ProcessChecker_Menubar;
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE31F6E1E7A99450093116F /* Assets.xcassets in Resources */,
+				2E2BBD8F1E7D9C950068DAF1 /* PreferencesWindow.xib in Resources */,
 				2EE31F711E7A99450093116F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2BBD8E1E7D9C950068DAF1 /* PreferencesWindow.swift in Sources */,
 				2EE31F951E7A9CFD0093116F /* StatusMenuController.swift in Sources */,
 				2EE31F6C1E7A99450093116F /* AppDelegate.swift in Sources */,
 				2EE31F971E7AA0AC0093116F /* ProcessChecker.swift in Sources */,
@@ -500,6 +508,7 @@
 				2EE31F8D1E7A99450093116F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EE31F8E1E7A99450093116F /* Build configuration list for PBXNativeTarget "ProcessChecker_MenubarTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +517,7 @@
 				2EE31F901E7A99450093116F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EE31F911E7A99450093116F /* Build configuration list for PBXNativeTarget "ProcessChecker_MenubarUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +526,7 @@
 				2EE31F931E7A99450093116F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

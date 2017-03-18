@@ -12,6 +12,8 @@ class StatusMenuController: NSObject {
 
     @IBOutlet weak var statusMenu: NSMenu!
     @IBOutlet weak var aClicked: NSMenuItem!
+    var preferencesWindow: PreferencesWindow!
+
     
     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
     let processChecker = ProcessChecker()
@@ -22,10 +24,15 @@ class StatusMenuController: NSObject {
         icon?.isTemplate = true // best for dark mode
         statusItem.image = icon
         statusItem.menu = statusMenu
+        
+        preferencesWindow = PreferencesWindow()
+
     }
     
     @IBAction func preferencesClicked(_ sender: NSMenuItem) {
         print("Preferences clicked")
+        preferencesWindow.showWindow(nil)
+
     }
     
     @IBAction func quitClicker(_ sender: NSMenuItem) {

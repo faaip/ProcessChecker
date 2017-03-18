@@ -28,6 +28,12 @@
                         <action selector="checkProcesses:" target="roq-cf-0t3" id="zqh-gz-OL4"/>
                     </connections>
                 </menuItem>
+                <menuItem title="Preferences" id="IeS-uA-Cqf">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="preferencesClicked:" target="roq-cf-0t3" id="FqW-Vk-HLR"/>
+                    </connections>
+                </menuItem>
                 <menuItem title="Quit" id="FkL-Ov-GIS">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>

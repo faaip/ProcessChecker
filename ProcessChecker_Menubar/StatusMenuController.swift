@@ -24,6 +24,9 @@ class StatusMenuController: NSObject {
         statusItem.menu = statusMenu
     }
     
+    @IBAction func preferencesClicked(_ sender: NSMenuItem) {
+        print("Preferences clicked")
+    }
     
     @IBAction func quitClicker(_ sender: NSMenuItem) {
         NSApplication.shared().terminate(self)
